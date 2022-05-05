@@ -1,0 +1,14 @@
+$color: aquamarine;
+
+header {
+    background-color: $color;
+    nav {
+        text-align: center;
+        a {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            &:hover{
+                color:$color
+            }
+        }
+    }
+}
